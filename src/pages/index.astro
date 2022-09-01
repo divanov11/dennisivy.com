@@ -7,14 +7,14 @@ import profile_pic from '../images/profile_pic.jpg'
 import course from '../images/course.png'
 import { FileText, ArrowRight, Play} from 'react-feather';
 
-// const articles = (await Astro.glob('./posts/*.{md,mdx}')).sort(
-// 	(a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
-// );
+const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+	(a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+);
 
 //Orderd By "order attribute"
-const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
-	(a, b) => b.frontmatter.order - a.frontmatter.order
-);
+// const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+// 	(a, b) => b.frontmatter.order - a.frontmatter.order
+// );
 
 
 ---

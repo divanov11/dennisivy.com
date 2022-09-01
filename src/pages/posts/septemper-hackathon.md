@@ -1,8 +1,9 @@
 ---
-title: 🍂 September Hackathon - Portfolio Edition 🍁
+title: September Hackathon - Portfolio Edition
 slug: septempber-hackathon
 date: 2022-8-31
 author: Dennis Ivy
+read_time: 2
 tags: [python, javascript]
 order: 2
 ---

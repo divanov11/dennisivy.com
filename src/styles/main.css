@@ -204,10 +204,31 @@ li{
   
 }
 
+.astro-code code{
+  padding: 0;
+
+  background-color: #0c0c0c!important;
+}
+
+
+code{
+  background-color: #3d3d3d!important;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+blockquote{
+  background-color: #0c0c0c!important;
+  padding: .5em 1em;
+  border-left: 5px solid #055f7a;
+}
+
 .astro-code span{
   font-family:monospace;
   font-size: 16px;
 }
+
+
 
 
 @media(max-width:600px){

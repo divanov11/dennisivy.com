@@ -7,7 +7,7 @@ read_time: 4
 tags: [Django, Wordpress]
 order: 3
 hero: https://dennisivy-personal.s3.amazonaws.com/images/wordpress_or_django.jpg
-
+draft: false
 ---
 
 I get this question a lot, especially after completing my own website (DennisIvy.com) using Django. A lot of people thought it was an overkill but I had good reason to do so. I'll explain why I chose to custom build it along with going over when you should use a platform vs doing a custom build.

@@ -7,7 +7,7 @@ read_time: 15
 tags: [Django]
 order: 1
 hero: ./src/images/posts/cbv.png
-
+draft: false
 ---
 
 [See related video here](https://youtu.be/RE0HlKch_3U)
@@ -341,7 +341,7 @@ The DetailView inherits directly from 1 view and 1 mixin, but all together there
 1. ContextMixin
 1. View
 
-![sdf](./src/images/posts/detailview-1.jpg)
+![](./src/images/posts/detailview-1.jpg)
 
 Overriding Default values
 
@@ -386,7 +386,7 @@ The CreateView inherits directly from 1 view and 1 mixin, but all together there
 1. ProcessFormView
 1. View
 
-![sdf](./src/images/posts/createview-1.jpg)
+![sdf](./images/createview-1.jpg)
 
 Overriding Default values
 

@@ -7,7 +7,7 @@ read_time: 7
 tags: [Djngo]
 order: 1
 hero: https://dennisivy-personal.s3.amazonaws.com/images/Dennis_ivy.jpg
-
+draft: false
 ---
 
 When it comes to pricing services for clients, there are typically 3 main ways to go about it:

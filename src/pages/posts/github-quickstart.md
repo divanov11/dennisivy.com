@@ -7,7 +7,7 @@ read_time: 5
 tags: []
 order: 1
 hero: https://dennisivy-personal.s3.amazonaws.com/images/GitHub_tutorial.jpg
-
+draft: false
 ---
 
 So you have a project on your local desktop and now you want to get these files up on github.com, here’s how you can do this.

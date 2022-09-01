@@ -7,7 +7,7 @@ read_time: 5
 tags: [Django, Wordpress]
 order: 3
 hero: https://dennisivy-personal.s3.amazonaws.com/images/Seo_thumbnail4.jpg
-
+draft: false
 ---
 
 The first website I ever built (Using Wix) ended up ranking on the first page of google within 3 months. I knew nothing about SEO and just learned how to use WIX. The only thing I had was a book called “The Art of SEO” which I had just purchased at Barnes and noble and a Can-Do attitude.

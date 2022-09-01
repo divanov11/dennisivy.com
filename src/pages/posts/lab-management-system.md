@@ -7,7 +7,7 @@ read_time: 1
 tags: [Django]
 order: 3
 hero: ./src/images/posts/foi-dashboard.jpg
-
+draft: false
 ---
 
 

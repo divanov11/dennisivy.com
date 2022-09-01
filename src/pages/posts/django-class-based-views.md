@@ -6,7 +6,7 @@ author: Dennis Ivy
 read_time: 15
 tags: [Django]
 order: 1
-hero: ./src/images/posts/cbv.png
+hero: images/cbv.png
 draft: false
 ---
 
@@ -298,7 +298,7 @@ The ListView inherits directly from 1 view and 1 mixin, but all together there a
 
 Each parent view and mixin adds or enhances a set of attributes and methods for our built in view.
 
-![sdf](./src/images/posts/listview-1.jpg)
+![sdf](images//listview-1.jpg)
 
 Overriding Default values
 
@@ -341,7 +341,7 @@ The DetailView inherits directly from 1 view and 1 mixin, but all together there
 1. ContextMixin
 1. View
 
-![](./src/images/posts/detailview-1.jpg)
+![](images//detailview-1.jpg)
 
 Overriding Default values
 
@@ -386,7 +386,7 @@ The CreateView inherits directly from 1 view and 1 mixin, but all together there
 1. ProcessFormView
 1. View
 
-![sdf](./images/createview-1.jpg)
+![](images/createview-1.jpg)
 
 Overriding Default values
 
@@ -428,7 +428,7 @@ This view by default follows the same template_naming convention and form princi
 1. ProcessFormView
 1. View
 
-![sdf](./src/images/posts/updateview-1.jpg)
+![sdf](images/posts/updateview-1.jpg)
 
 See all attributes and methods in these helpful resources:
 
@@ -455,7 +455,7 @@ The DeleteView inherits directly from 1 view and 1 mixin, but all together there
 1. ContextMixin
 1. View
 
-![sdf](./src/images/posts/deleteview-1.jpg)
+![sdf](images//deleteview-1.jpg)
 
 Overriding Default values
 
@@ -543,4 +543,4 @@ I’ll tell you one thing though, if you stick around long enough with django yo
 
 [Full project video on creating a To-List application with class based views](https://youtu.be/llbtoQTt4qw)
 
-![](./src/images/posts/django-to-do-list-app.jpg)
+![](images//django-to-do-list-app.jpg)

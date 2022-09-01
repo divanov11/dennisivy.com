@@ -298,7 +298,7 @@ The ListView inherits directly from 1 view and 1 mixin, but all together there a
 
 Each parent view and mixin adds or enhances a set of attributes and methods for our built in view.
 
-![sdf](images//listview-1.jpg)
+![](images/listview-1.jpg)
 
 Overriding Default values
 

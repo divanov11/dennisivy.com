@@ -428,7 +428,7 @@ This view by default follows the same template_naming convention and form princi
 1. ProcessFormView
 1. View
 
-![sdf](images/posts/updateview-1.jpg)
+![](images/updateview-1.jpg)
 
 See all attributes and methods in these helpful resources:
 

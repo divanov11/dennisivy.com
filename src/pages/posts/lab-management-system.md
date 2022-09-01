@@ -6,7 +6,7 @@ author: Dennis Ivy
 read_time: 1
 tags: [Django]
 order: 3
-hero: ./src/images/posts/foi-dashboard.jpg
+hero: ./images/foi-dashboard.jpg
 draft: false
 ---
 
@@ -24,7 +24,7 @@ I worked on this system for 2 years before selling this to FOI Laboratories.
 Product recap & the marketing process
 
 Click to play video
-[![](./src/images/posts/video-thumbnail-foi.jpg)](https://youtu.be/fju01GCBD24)
+[![](./images/video-thumbnail-foi.jpg)](https://youtu.be/fju01GCBD24)
 
 
 Original product commercials version 1.0 and 2.0
@@ -45,18 +45,18 @@ Original product commercials version 1.0 and 2.0
 
 ## Laboratory Admin Dashboard
 
-![](./src/images/posts/lab-dash.jpg)
+![](./images/lab-dash.jpg)
 
 ## Sample ID Form
 
-![](./src/images/posts/sample-form.jpg)
+![](./images/sample-form.jpg)
 
 ## Results Input Fields
 
-![](./src/images/posts/results.jpg)
+![](./images/results.jpg)
 
 ## PDF Report (Automaticly Generated)
-![](./src/images/posts/pdf-report.jpg)
+![](./images/pdf-report.jpg)
 
 ## Customer Dashboard
-![](./src/images/posts/customer-dash.jpg)
+![](./images/customer-dash.jpg)

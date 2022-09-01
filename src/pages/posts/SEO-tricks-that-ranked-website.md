@@ -14,7 +14,7 @@ The first website I ever built (Using Wix) ended up ranking on the first page of
 
 Applying all the concepts I was learning from the book I had my website indexed with google and all the basic on page SEO complete within a few weeks. My website Had all the correct meta tags, title tags, and optimized content based on some keyword research I had completed for my industry.
 
-[![](./src/images/posts/fast-seo-video.PNG)](https://youtu.be/T-9JYYcqUco)
+[![](./images/fast-seo-video.PNG)](https://youtu.be/T-9JYYcqUco)
 
 
 ## Beyond Basics

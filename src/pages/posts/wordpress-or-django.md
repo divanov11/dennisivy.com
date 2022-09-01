@@ -14,7 +14,7 @@ I get this question a lot, especially after completing my own website (DennisIvy
 
 Click to play video
 
-[![](./src/images/posts/wordpress-video-preview.PNG)](https://youtu.be/3xOu8PcfycA)
+[![](./images/wordpress-video-preview.PNG)](https://youtu.be/3xOu8PcfycA)
 
 
 ### Don't Reinvent the wheel

@@ -1,0 +1,25 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { ArrowLeft,} from 'react-feather';
+
+export async function getStaticPaths() {
+    const articles = await Astro.glob('./posts/*.{md,mdx}')
+
+    return articles.map(article => ({
+        params: {
+            slug:article.frontmatter.slug
+        },
+        props: {
+            article
+        }
+    }))
+}
+
+const {Content, frontmatter} = Astro.props.article
+---
+
+<ArticleLayout title={frontmatter.title}>
+    <a href="/"><div style="display: flex;align-items: center; gap:1em;"><ArrowLeft/> Go Back</div></a>
+    <h1>{frontmatter.title}</h1>
+    <Content/>
+</ArticleLayout>

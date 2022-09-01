@@ -1,0 +1,73 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import ArticlePreview from '../components/ArticlePreview.astro'
+
+import profile_pic from '../images/profile_pic.jpg'
+import course from '../images/course.png'
+import { FileText, ArrowRight, Play} from 'react-feather';
+
+// const articles = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+// 	(a, b) => new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+// );
+
+//Orderd By "order attribute"
+const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+	(a, b) => b.frontmatter.order - a.frontmatter.order
+);
+
+
+
+
+---
+
+<Layout title="Dennis Ivanov">
+
+	<section id="wrapper--hero" class="section--page">
+		<img id="profile-pic" width={200} height={200} src={profile_pic}/>
+
+		<div>
+			<h1 id="user-name">Dennis Ivanov</h1>
+			<p id="bio">Software developer, developer advocate at <a href="https://www.agora.io/en/" target="_blank">Agora</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
+			{/* <p id="email">👉 dennis@dennisivy.com</p> */}
+		</div>  
+	</section>
+
+	<section class="section--page">
+		<div id="socials--list">
+			<a href="https://youtube.com/c/dennisivy" target="_blank">Youtube</a>
+			<a href="https://twitter.com/dennisivy11" target="_blank">Twitter</a>
+			<a href="https://www.linkedin.com/in/dennis-ivanov/" target="_blank">Linkedin</a>
+			<a href="https://github.com/divanov11" target="_blank">Github</a>
+			<a href="https://discord.com/invite/b6XP3nrD6V" target="_blank">Discord</a>
+			 <a href="https://divanov11.github.io/Digital-Resume/assets/resume.pdf" target="_blank">Resume</a> 
+		</div>
+	</section>
+
+	<section class="section--page course-preview">
+		<div class='course-preview-image-border'>
+			<a href="https://dennisivy.teachable.com/p/django-beginners-course" target="_blank">
+		  		<img class='course-preview-image' src={course} />
+			</a>
+		</div>
+		<div id='course-preview-body'>
+			<h3>Python Django - Complete Course</h3>
+			<p>Learn to build awesome websites with Python & Django today!</p>
+			<a class='btn btn--md' href='https://dennisivy.teachable.com/p/django-beginners-course' target="_blank"><Play width="16px" height="16px" />View Course</a>
+		</div>
+	</section>
+
+	
+	<section class="section--page">
+		<h2>Latest Posts</h2>
+
+		{posts.map(post => (
+			<ArticlePreview frontmatter={post.frontmatter}/>
+			
+		))}
+
+	
+	</section>
+
+</Layout>
+

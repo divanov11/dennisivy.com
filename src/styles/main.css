@@ -1,0 +1,208 @@
+@import url("https://unpkg.com/dracula-prism/dist/css/dracula-prism.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --mainTextColor-light:#000;
+    --secondaryTextColor-light:rgb(51 51 51);
+    --mainLinkColor-light:#0da2b8;
+    --mainBorderColor-light:rgb(218, 218, 218);
+    --mainBgColor-light:rgb(249, 250,251);
+
+    --mainTextColor-dark:#fff;
+    --secondaryTextColor-dark:#adb0b1;
+    --mainLinkColor-dark:rgb(30, 190,214);
+    --mainBorderColor-dark:#2b3031;
+    --mainBgColor-dark:#131415;
+    
+    --mainTextColor:var(--mainTextColor-dark);
+    --secondaryTextColor:var(--secondaryTextColor-dark);
+    --mainLinkColor:var(--mainLinkColor-dark);
+    --mainBorderColor:var(--mainBorderColor-dark);
+    --mainBgColor:var(--mainBgColor-dark);
+}
+
+*{
+    font-family: 'Readex Pro';
+    line-height: 1.9em;
+    box-sizing: border-box;
+    color: var(--mainTextColor);
+}
+
+body{
+    background-color: var(--mainBgColor);            
+}
+
+img { max-width: 100%; height: auto; }
+
+p, span,small,  li{
+    color: var(--secondaryTextColor);
+    font-size: 1em;
+}
+
+small{
+  font-size: .8em;
+}
+
+a{
+    text-decoration: none;
+    color: var(--mainLinkColor);
+    font-weight: 500;
+}
+
+li{
+    line-height: 1.9em;
+}
+
+.container--main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.section--page{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.line-break{
+  background-color: var(--mainBorderColor);
+  height: 1px;
+}
+
+.btn{
+  border: 1px solid var(--mainBorderColor);
+  color: var(--secondaryTextColor);
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  gap:5px;
+  width: fit-content;
+}
+
+.btn--md{
+  font-size: .9em;
+}
+
+
+
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+
+#bio, a{
+    font-weight: 300;
+}
+
+#user-name{
+    font-size: 48px;
+    line-height: 1em;
+}
+
+#profile-pic{
+  box-sizing: content-box;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#email{
+    color: var(--mainTextColor);
+}
+
+#socials--list{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 2em;
+    flex-wrap: wrap;
+}
+
+#socials--list a{
+    font-weight: 300;
+    color: var(--secondaryTextColor);
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+#socials--list a:hover{
+    font-weight: 100;
+    color: var(--mainLinkColor);
+    font-size: 0.9em;
+}
+
+.course-preview{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 2em;
+  align-items: center;
+}
+
+.course-preview-image{
+  display: block;
+  border-radius: 10px;
+  object-fit:cover;
+  cursor: pointer;
+}
+
+.course-preview-image-border{
+  padding: 3px;
+  margin: 0;
+  line-height: 0;
+  border-radius: 10px;
+  border: 1px solid var(--mainBorderColor);
+}
+
+
+
+
+.card--article-preview{
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: center;
+  padding:0.5em 0;
+  border-bottom: 1px solid var(--mainBorderColor);
+}
+
+.card--article-preview strong{
+  font-weight: 400;
+}
+
+.card--article-preview small{
+  font-weight: 100;
+}
+
+.article-preview__body{
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+
+#navbar{
+  display: flex;
+  gap: 2em;
+}
+
+#navbar a{
+  color: var(--secondaryTextColor);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.astro-code{
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #0c0c0c!important;
+  
+}
+
+.astro-code span{
+  font-family:monospace;
+  font-size: 16px;
+}

@@ -1,0 +1,25 @@
+---
+
+
+const {frontmatter} = Astro.props;
+import { FileText, ArrowRight} from 'react-feather';
+---
+
+<a href=`/${frontmatter.slug}`>
+    
+    <div class='card--article-preview'>
+      
+        <div class="article-preview__body">
+            <FileText  color='rgb(218, 218, 218)' size={28} />
+            <div>
+              <strong>{frontmatter.title}</strong>
+              <br/>
+              <small>{frontmatter.tags.map(tag => (
+                <span>{tag} {frontmatter.tags[frontmatter.tags.length-1] != tag && ','} </span>
+              ))}</small>
+            </div>
+        </div>
+
+        <ArrowRight size={18}/>
+    </div>
+  </a>

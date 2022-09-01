@@ -17,19 +17,17 @@ const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
 );
 
 
-
-
 ---
 
 <Layout title="Dennis Ivanov">
 
 	<section id="wrapper--hero" class="section--page">
-		<img id="profile-pic" width={200} height={200} src={profile_pic}/>
+		<img id="profile-pic" src={profile_pic}/>
 
 		<div>
 			<h1 id="user-name">Dennis Ivanov</h1>
 			<p id="bio">Software developer, developer advocate at <a href="https://www.agora.io/en/" target="_blank">Agora</a>, Udemy <a href="https://www.udemy.com/user/dennis-ivanov-5/" target="_blank">instructor</a>, <a href="https://www.youtube.com/c/dennisivy" target="_blank">YouTuber</a> and contributor at <a href="https://youtu.be/PtQiiknWUcI?t=6" target="_blank">Traversy Media</a>.</p>
-			{/* <p id="email">👉 dennis@dennisivy.com</p> */}
+			<!-- <p id="email">👉 dennis@dennisivy.com</p>  -->
 		</div>  
 	</section>
 

@@ -105,8 +105,8 @@ li{
 
 #profile-pic{
   box-sizing: content-box;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
@@ -205,4 +205,27 @@ li{
 .astro-code span{
   font-family:monospace;
   font-size: 16px;
+}
+
+
+@media(max-width:600px){
+
+
+  #wrapper--hero{
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      flex-direction: column;
+  }
+
+  #profile-pic{
+      width: 200px;
+      height: 200px;
+  }
+
+  .course-preview{
+    grid-template-columns: 1fr;
+  }
+
+
 }

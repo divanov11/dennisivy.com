@@ -25,7 +25,7 @@ Results will be announced via live stream on my [YouTube Channel](https://www.yo
 Total winners will be determined by the amount of money raised from sponsors. Total raised so far is $1,500
 
 ```
-Total Winners =  (Prize Money X Total Raised) = 15
+Total Winners =  (Total Raised / Prize Money) = 15
 ```
 
 ## 📆 Important Dates

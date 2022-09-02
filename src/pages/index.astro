@@ -1,8 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+
 import ArticlePreview from '../components/ArticlePreview.astro'
 import EventPreview from '../components/EventPreview.astro'
+import Winners from '../components/Winners.astro'
 
 import profile_pic from '../images/profile_pic.jpg'
 import course from '../images/course.png'
@@ -82,6 +83,9 @@ events = events.filter((event) => !event.frontmatter.draft);
 		))}
 
 	</section>
+
+
+	<Winners/>
 
 </Layout>
 

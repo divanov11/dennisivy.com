@@ -1,6 +1,6 @@
 ---
 title: September Hackathon - Portfolio Edition
-slug: septempber-hackathon
+slug: september-hackathon
 date: 2022-8-31
 author: Dennis Ivy
 read_time: 2
@@ -65,7 +65,7 @@ All developers!!!
 - We may end up making this a multi day hackathon
 
 ## 🧐 What Dennis Is Trying To Solve
-- How can we make mass voting ethical so people do vote for "bad" projects just to increase their chances?
+- How can we make mass voting ethical so people don't vote for "bad" projects just to increase their chances?
 - How do we make the competition fair for devs who may not be skilled in design? Ex: Backend devs competing against designers, not really fair. 
 
 

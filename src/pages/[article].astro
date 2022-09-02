@@ -7,7 +7,7 @@ export async function getStaticPaths() {
 
     return articles.map(article => ({
         params: {
-            slug:article.frontmatter.slug
+            article:article.frontmatter.slug
         },
         props: {
             article
@@ -19,8 +19,6 @@ const {Content, frontmatter} = Astro.props.article
 ---
 
 <ArticleLayout title={frontmatter.title}>
-    <a href="/"><div style="display: flex;align-items: center; gap:1em;"><ArrowLeft/> Go Back</div></a>
-    <br>
     <img src={frontmatter.hero}/>
     <h1>{frontmatter.title}</h1>
     <Content/>

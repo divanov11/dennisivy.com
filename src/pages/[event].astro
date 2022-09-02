@@ -1,0 +1,25 @@
+---
+import ArticleLayout from '../layouts/ArticleLayout.astro';
+import { ArrowLeft,} from 'react-feather';
+
+export async function getStaticPaths() {
+    const events = await Astro.glob('./events/*.{md,mdx}')
+
+    return events.map(event => ({
+        params: {
+            event:event.frontmatter.slug
+        },
+        props: {
+            event
+        }
+    }))
+}
+
+const {Content, frontmatter} = Astro.props.event
+---
+
+<ArticleLayout title={frontmatter.title}>
+    <img src={frontmatter.hero}/>
+    <h1>{frontmatter.title}</h1>
+    <Content/>
+</ArticleLayout>

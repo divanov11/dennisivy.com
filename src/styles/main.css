@@ -27,6 +27,7 @@
     line-height: 1.9em;
     box-sizing: border-box;
     color: var(--mainTextColor);
+    scroll-behavior: smooth;
 }
 
 body{
@@ -34,6 +35,23 @@ body{
 }
 
 img { max-width: 100%; height: auto; }
+
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+h4{
+  font-size: 24px;
+}
+
 
 p, span,small,  li{
     color: var(--secondaryTextColor);
@@ -54,10 +72,40 @@ li{
     line-height: 1.9em;
 }
 
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+nav a{
+  color:#adb0b1;
+  font-size: 18px;
+}
+
+#menu--container{
+  display: flex;
+  column-gap: 1em;
+}
+
+#logo{
+  width: 50px;
+}
+
+
+#github--logo{
+  width: 60px;
+}
+
+
+#menu--container{
+ 
+}
 .container--main{
     max-width: 800px;
     margin: 0 auto;
-    padding: 1em;
+
 }
 
 .section--page{
@@ -100,7 +148,7 @@ li{
 
 #user-name{
     font-size: 48px;
-    line-height: 1em;
+    line-height: 0;
 }
 
 #profile-pic{
@@ -232,13 +280,20 @@ blockquote{
 
 
 @media(max-width:600px){
-
+  .container--main{
+    padding: 1em;
+  }
+  
 
   #wrapper--hero{
       display: flex;
       align-items: center;
       gap: 1em;
       flex-direction: column;
+  }
+
+  #github--logo{
+    display: none;
   }
 
   #profile-pic{

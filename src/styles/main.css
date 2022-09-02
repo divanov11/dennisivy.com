@@ -86,7 +86,10 @@ nav a{
 
 #menu--container{
   display: flex;
-  column-gap: 1em;
+}
+
+#menu--container a {
+  margin: 0 1em;
 }
 
 #logo{
@@ -229,8 +232,12 @@ nav a{
 
 .article-preview__body{
   display: flex;
-  gap: 1em;
+
   align-items: center;
+}
+
+.article-preview__body > h3{
+ margin-right: 0.5em;
 }
 
 

@@ -324,6 +324,13 @@ blockquote{
 }
 
 
+@media(max-width:800px) {
+  #winners--wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+  }
+}
 
 
 
@@ -351,6 +358,12 @@ blockquote{
 
   .course-preview{
     grid-template-columns: 1fr;
+  }
+
+  #winners--wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
   }
 
 

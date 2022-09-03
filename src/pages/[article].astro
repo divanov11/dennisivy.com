@@ -20,6 +20,7 @@ const {Content, frontmatter} = Astro.props.article
 
 <ArticleLayout title={frontmatter.title}>
     <img src={frontmatter.hero}/>
+    <p>📆 Posted on {frontmatter.date}</p>
     <h1>{frontmatter.title}</h1>
     <Content/>
 </ArticleLayout>

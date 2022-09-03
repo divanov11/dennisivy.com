@@ -10,7 +10,7 @@ hero:
 draft: false
 ---
 
-![](images/django-skills-1.PNG)
+![](images/django-skills-1.png)
 
 I just got asked this question on LinkedIn and I have to say, it’s a tough question to answer but I get it all to often so I’ll address it here.
 

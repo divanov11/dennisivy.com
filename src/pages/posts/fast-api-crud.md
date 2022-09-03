@@ -95,7 +95,7 @@ INFO:     Application startup complete.
 
 `main` is the file name, `app` is the name of our app variable and — reload will restart our server anytime we make a change to the code and should only be used in development.
 
-![](images/fastapi-1.PNG)
+![](images/fastapi-1.png)
 
 ### Swagger UI
 
@@ -113,7 +113,7 @@ To test things out, click on the route that is currently available and then clic
 
 Now, you will see your data formatted like so:
 
-![](images/fastapi-2.PNG)
+![](images/fastapi-2.png)
 
 Before moving on to the next section let’s create an object that will represent our database. We will eventually start working with an SQLite database but this will make things easier to start with before we advance later.
 
@@ -178,7 +178,7 @@ def addItem(task:str):
 
 What you will see in the docs UI is the following:
 
-![](images/fastapi-3.PNG)
+![](images/fastapi-3.png)
 
 `app.post` — We are specifying the HTTP request type for this route as a post request.
 
@@ -238,7 +238,7 @@ def addItem(item:schemas.Item):
 
 Your doc’s UI should look something like this:
 
-![](images/fastapi-4.PNG)
+![](images/fastapi-4.png)
 
 OK, so options 1 and 2 work great but some of you may not know what data you want to send over right away, or maybe you just want to access the entire request body sent over and extract each item as you please. I’ll show you how to do this as option 3.
 

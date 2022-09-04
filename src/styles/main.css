@@ -8,7 +8,8 @@
     --mainBgColor-light:rgb(249, 250,251);
 
     --mainTextColor-dark:#fff;
-    --secondaryTextColor-dark:#adb0b1;
+    /* --secondaryTextColor-dark:#adb0b1; */
+    --secondaryTextColor-dark:#cbc8d0;
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;

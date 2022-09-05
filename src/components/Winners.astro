@@ -1,6 +1,8 @@
 ---
 import profile_pic from '../images/profile_pic.jpg'
 import femi from '../images/femi.jpg'
+import fifi from '../images/fifi.jpg'
+import sahil from '../images/sahil.jpeg'
 import sudhanshu from '../images/sudhanshu.jpg'
 
 import '../styles/winners.css'
@@ -13,17 +15,19 @@ import '../styles/winners.css'
 
     <div id="winners--wrapper">
 
-        <div class="winner--card">
-            <div class="winner--card--header">
-                <div class="winner--avatar__border">
-                    <img class="winner--avatar" src="https://pbs.twimg.com/profile_images/1565194670443208704/hD0twZgf_400x400.jpg"/>
-                </div>
-                <div>
-                    <p class="winner--name"><a href="https://twitter.com/PraveenMalethia" target="_blank">Praveen Kumar</a></p>
-                    <small>Code Battle</small>
+        <a href="https://twitter.com/PraveenMalethia" target="_blank">
+            <div class="winner--card">
+                <div class="winner--card--header">
+                    <div class="winner--avatar__border">
+                        <img class="winner--avatar" src="https://pbs.twimg.com/profile_images/1565194670443208704/hD0twZgf_400x400.jpg"/>
+                    </div>
+                    <div>
+                        <p class="winner--name">Praveen Kumar</p>
+                        <small>Code Battle</small>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
 
         <div class="winner--card">
             <div class="winner--card--header">
@@ -38,55 +42,61 @@ import '../styles/winners.css'
            
         </div>
 
-        <div class="winner--card">
-            <div class="winner--card--header">
-                <div class="winner--avatar__border">
-                    <img class="winner--avatar" src="https://toppng.com/uploads/preview/happy-emoji-11550171587aclhdkztf2.png"/>
-                </div>
-                <div>
-                    <p class="winner--name">Sahil</p>
-                    <small>Code Battle</small>
+        <a href="https://twitter.com/Sahilkhanna07" target="_blank">
+            <div class="winner--card">
+                <div class="winner--card--header">
+                    <div class="winner--avatar__border">
+                        <img class="winner--avatar" src={sahil}/>
+                    </div>
+                    <div>
+                        <p class="winner--name">Sahil</p>
+                        <small>Code Battle</small>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
 
-        <div class="winner--card">
-            <div class="winner--card--header">
-                <div class="winner--avatar__border">
-                    <img class="winner--avatar" src="https://toppng.com/uploads/preview/happy-emoji-11550171587aclhdkztf2.png"/>
-                </div>
-                <div>
-                    <p class="winner--name">Fifi</p>
-                    <small>Code Battle</small>
+        <a href="https://twitter.com/stephaniefifi_" target="_blank">
+            <div class="winner--card">
+                <div class="winner--card--header">
+                    <div class="winner--avatar__border">
+                        <img class="winner--avatar" src={fifi}/>
+                    </div>
+                    <div>
+                        <p class="winner--name">Fifi</p>
+                        <small>Code Battle</small>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
 
-        <div class="winner--card">
-            <div class="winner--card--header">
-                <div class="winner--avatar__border">
-                    <img class="winner--avatar" src={sudhanshu}/>
-                </div>
-                <div>
-                    <p class="winner--name">Sudhanshu Prasad</p>
-                    <small>Design Battle</small>
-                </div>
-            </div>
-           
-        </div>
-
-        <div class="winner--card">
-            <div class="winner--card--header">
-                <div class="winner--avatar__border">
-                    <img class="winner--avatar" src={femi}/>
-                </div>
-                <div>
-                    <p class="winner--name">Femi</p>
-                    <small>Design Battle</small>
+        <a href="https://twitter.com/sudhanshu_p_12" target="_blank">
+            <div class="winner--card">
+                <div class="winner--card--header">
+                    <div class="winner--avatar__border">
+                        <img class="winner--avatar" src={sudhanshu}/>
+                    </div>
+                    <div>
+                        <p class="winner--name">Sudhanshu Prasad</p>
+                        <small>Design Battle</small>
+                    </div>
                 </div>
             </div>
-      
-        </div>
+        </a>
+        
+        <a href="https://www.linkedin.com/in/femiodejide" target="_blank">
+            <div class="winner--card">
+                <div class="winner--card--header">
+                    <div class="winner--avatar__border">
+                        <img class="winner--avatar" src={femi}/>
+                    </div>
+                    <div>
+                        <p class="winner--name">Femi</p>
+                        <small>Design Battle</small>
+                    </div>
+                </div>
+            </div>
+        </a>
 
     </div>
 </section>

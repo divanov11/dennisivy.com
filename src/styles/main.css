@@ -294,7 +294,12 @@ blockquote{
   padding: 1em;
   border-radius: 10px;
   line-height: 1em;
+  transition: 0.3s;
 
+}
+
+.winner--card:hover{
+  border-color:var(--mainLinkColor);
 }
 
 .winner--card--header{
@@ -314,11 +319,13 @@ blockquote{
   border: 2px solid var(--mainBorderColor);
 }
 
-.winner--name{
+.winner--name, a{
   color: var(--mainTextColor);
   line-height: 1em;
   margin:0;
 }
+
+
 
 .winner--info{
   font-size: 13px;

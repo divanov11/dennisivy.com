@@ -38,9 +38,6 @@ Total Winners =  (Total Raised / Prize Money) = 15
 
 All developers!!!
 
-<!-- ## 🙌 How to Participate -->
-
-
 
 ## ‍⚖️ Judges
 - Tadas Petra: [YouTube](https://www.youtube.com/c/TadasPetra), [Twitter](https://twitter.com/tadaspetra)
@@ -53,11 +50,10 @@ All developers!!!
 
 ## 🛠️ Requirements
 - Website must have a live URL
-- Provide github link & any other social accounts
-- Specify the type of developer you are in submission form
-    - Backend Dev Or FullStack
-    - Designer
-    - Frontend Dev
+- Provide github link
+
+## Rules
+- Let us know if you used a tempalte when you submit your portfolio. Submissions that used tempaltes can still participate but will not have a chance to win the "Best Portfolio" Challenge.
 
 ## 💡 Ideas
 - Creating a voting system so public votes on top 50 - 100 portfolios
@@ -66,7 +62,6 @@ All developers!!!
 
 ## 🧐 What Dennis Is Trying To Solve
 - How can we make mass voting ethical so people don't vote for "bad" projects just to increase their chances?
-- How do we make the competition fair for devs who may not be skilled in design? Ex: Backend devs competing against designers, not really fair. 
 
 
 ## 🤔 FAQ

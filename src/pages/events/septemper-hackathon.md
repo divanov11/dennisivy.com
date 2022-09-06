@@ -1,5 +1,5 @@
 ---
-title: September Hackathon - Portfolio Edition
+title: September Hackathon 🍁🍂 Portfolio Edition
 slug: september-hackathon
 date: 2022-8-31
 author: Dennis Ivy
@@ -10,37 +10,44 @@ draft: false
 ---
 
 
-Think you have a portfolio website worth showcasing? Join the september hackathon for a chance to win $100 and bragging rights!
+Wanna showcase your portfolio website? Join the september hackathon for a chance to win $100 and bragging rights!
 
-Results will be announced via live stream on my [YouTube Channel](https://www.youtube.com/c/dennisivy) on (Date To Be Decided). Judges will review portfolios live!
+Results will be announced via live stream on my [YouTube Channel](https://www.youtube.com/c/dennisivy) on september 28th.
 
-### [Join the discord server!](https://discord.gg/b6XP3nrD6V)
+#### <a href="https://discord.gg/JF6M722Tkt" target="_blank">Join the discord server here</a>
 
-### Submit Projects Here - (Form Not Available Yet)
+#### Submit Projects Here - (Form Not Available Yet)
+
+## 💰 Hackathon overview
+
+On september 28th judges will determine the top 5 winners who will recieve **$150**. 
+
+Judges will also decide wich portfolio's meet the standard of what makes a quality portfolio. Portfolios wich meet the "quality" standard will be entered into a random drawing raffle for a change to win **$100**, 7 winners will be drawn.
 
 ## 💰 Prize Money
 
-- $100 Per winner
+- $150 for each winner in top 5
+- $100 for each winner in random draw
 
 Total winners will be determined by the amount of money raised from sponsors. Total raised so far is $1,500
 
 ```
-Total Winners =  (Total Raised / Prize Money) = 15
+Total Winners =  (Total Raised / Prize Money) = 12
 ```
 
 ## 📆 Important Dates
 
 - Start Date: Now
-- Submission Deadline - Sept 20th, maybe - Still deciding
-- Winners live stream - Sept 28th, maybe - Still deciding
-
+- Submission Deadline - Sept 20th 12:00am PST
+- Winners live stream - Sept 28th, 10:30am PST
+  
 ## 👇 Who can participate
 
-All developers!!!
+Frontend, backend and fullstack developers
 
 
 ## ‍⚖️ Judges
-- Tadas Petra: [YouTube](https://www.youtube.com/c/TadasPetra), [Twitter](https://twitter.com/tadaspetra)
+<!-- - Tadas Petra: [YouTube](https://www.youtube.com/c/TadasPetra), [Twitter](https://twitter.com/tadaspetra) -->
 - Dennis Ivy: [YouTube](https://www.youtube.com/c/dennisivy), [Twitter](https://twitter.com/dennisivy11)
 - Francesco Cuilla: [Youtube](https://www.youtube.com/c/FrancescoCiulla), [Twitter](https://twitter.com/FrancescoCiull4)
 - Danny Thompson - [Twitter](https://twitter.com/DThompsonDev ), [YouTube](https://www.youtube.com/c/DThompsonDev)
@@ -50,19 +57,15 @@ All developers!!!
 
 ## 🛠️ Requirements
 - Website must have a live URL
-- Provide github link
-
-## Rules
-- Let us know if you used a tempalte when you submit your portfolio. Submissions that used tempaltes can still participate but will not have a chance to win the "Best Portfolio" Challenge.
-
-## 💡 Ideas
-- Creating a voting system so public votes on top 50 - 100 portfolios
-- Judges will vote on top 10. Top ten winners will get same prize as everyone else. You'll just get more bragging rights
-- We may end up making this a multi day hackathon
-
-## 🧐 What Dennis Is Trying To Solve
-- How can we make mass voting ethical so people don't vote for "bad" projects just to increase their chances?
-
+- Provide a link to your github profile
 
 ## 🤔 FAQ
 
+**Q:** Can I use a template?
+<br>
+**A:** Yes, but any submissions that used template must specify this. If you used a template you can be entered in the random drawing challenge but cannot win the "Top Portfolio" challenge.
+
+<br>
+**Q:** Can I sumbit my current portoflio website or do I have to build a new one?
+<br>
+**A:** Yes you can submit what you already have. You DO NOT need to rebuilt a new website.

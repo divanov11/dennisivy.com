@@ -20,9 +20,19 @@ const {Content, frontmatter} = Astro.props.article
 
 <ArticleLayout title={frontmatter.title}>
     
-    <img src={frontmatter.hero}/>
     
-    <strong>By {frontmatter.author}</strong>
+    {frontmatter.hero && 
+    <img src={frontmatter.hero}/>
+    <br>
+    }
+    
+    <a href="https://twitter.com/dennisivy11" target="_blank">
+    <strong>
+        
+        By {frontmatter.author}
+       
+    </strong>
+     </a>
     <p>📆 Posted on {frontmatter.date}</p>
     <h1>{frontmatter.title}</h1>
     <Content/>

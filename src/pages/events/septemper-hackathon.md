@@ -24,7 +24,7 @@ Judges will also decide which portfolio's meet the standard of what makes a qual
 #### - <a href="https://forms.gle/jb6RzZx82kPvXmud8" target="_blank">REGISTER HERE!</a>
 
 #### - <a href="https://discord.gg/JF6M722Tkt" target="_blank">Join the discord server</a>
-#### - <a href="#" target="_blank"> Submit Portfolio - (Form Not Available Yet</a>
+#### - <a href="https://forms.gle/ZJAzcpUfjES7hsk59" target="_blank"> Submit Portfolio</a>
 
 ## 💰 Prize Money
 

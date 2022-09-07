@@ -14,15 +14,17 @@ Wanna showcase your portfolio website? Join the september hackathon for a chance
 
 Results will be announced via live stream on my [YouTube Channel](https://www.youtube.com/c/dennisivy) on september 28th.
 
-#### <a href="https://discord.gg/JF6M722Tkt" target="_blank">Join the discord server here</a>
-
-#### Submit Projects Here - (Form Not Available Yet)
 
 ## 💰 Hackathon overview
 
 On september 28th judges will determine the top 5 winners who will recieve **$150**. 
 
-Judges will also decide wich portfolio's meet the standard of what makes a quality portfolio. Portfolios wich meet the "quality" standard will be entered into a random drawing raffle for a change to win **$100**, 7 winners will be drawn.
+Judges will also decide which portfolio's meet the standard of what makes a quality portfolio. Portfolios wich meet the "quality" standard will be entered into a random drawing raffle for a change to win **$100**, 7 winners will be drawn.
+
+#### - <a href="https://forms.gle/jb6RzZx82kPvXmud8" target="_blank">REGISTER HERE!</a>
+
+#### - <a href="https://discord.gg/JF6M722Tkt" target="_blank">Join the discord server</a>
+#### - <a href="#" target="_blank"> Submit Portfolio - (Form Not Available Yet</a>
 
 ## 💰 Prize Money
 
@@ -66,6 +68,7 @@ Frontend, backend and fullstack developers
 **A:** Yes, but any submissions that used template must specify this. If you used a template you can be entered in the random drawing challenge but cannot win the "Top Portfolio" challenge.
 
 <br>
+
 **Q:** Can I sumbit my current portoflio website or do I have to build a new one?
 <br>
 **A:** Yes you can submit what you already have. You DO NOT need to rebuilt a new website.

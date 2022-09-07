@@ -40,7 +40,8 @@ Total Winners =  (Total Raised / Prize Money) = 12
 ## 📆 Important Dates
 
 - Start Date: Now
-- Submission Deadline - Sept 20th 12:00am PST
+- Registration Deadline - Sept 20th 12:00am PST
+- Submission Deadline - Sept 25th 12:00am PST
 - Winners live stream - Sept 28th, 10:30am PST
   
 ## 👇 Who can participate

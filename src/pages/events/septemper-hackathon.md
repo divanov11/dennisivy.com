@@ -12,7 +12,7 @@ draft: false
 
 Wanna showcase your portfolio website? Join the september hackathon for a chance to win $100 and bragging rights!
 
-Results will be announced via live stream on my [YouTube Channel](https://www.youtube.com/c/dennisivy) on september 28th.
+Results will be announced via live stream on my [YouTube Channel](https://www.youtube.com/c/dennisivy) on september 29th.
 
 #### <a href="https://discord.gg/JF6M722Tkt" target="_blank">Join the discord server here</a>
 
@@ -20,7 +20,7 @@ Results will be announced via live stream on my [YouTube Channel](https://www.yo
 
 ## 💰 Hackathon overview
 
-On september 28th judges will determine the top 5 winners who will recieve **$150**. 
+On september 29th judges will determine the top 5 winners who will recieve **$150**. 
 
 Judges will also decide wich portfolio's meet the standard of what makes a quality portfolio. Portfolios wich meet the "quality" standard will be entered into a random drawing raffle for a change to win **$100**, 7 winners will be drawn.
 

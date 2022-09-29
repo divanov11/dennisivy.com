@@ -1,9 +1,9 @@
 ---
 import ArticleLayout from '../layouts/ArticleLayout.astro';
-import { ArrowLeft,} from 'react-feather';
 
 export async function getStaticPaths() {
     const articles = await Astro.glob('./posts/*.{md,mdx}')
+    
 
     return articles.map(article => ({
         params: {

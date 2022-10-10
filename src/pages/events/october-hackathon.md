@@ -21,7 +21,7 @@ In this hackathon we are gonna work together as backend and frontend developers 
 Pick one of the two challenges below and build based off of the parameters set.
 
 ## 📆 Important Dates
-- Start date: Not set
+- Start date: 10/10
 - Submission deadline: Not set
 - Winners announcement: Not set
 
@@ -32,7 +32,7 @@ Pick one of the two challenges below and build based off of the parameters set.
 
 ✋ How to participate
 
-- Register - (Registration not yet opened)
+- Register - <a href="https://codebattles.dev/" target="_blanl">CodeBattles.dev</a>
 - Pick a challange
 - Submit project before deadline
 
@@ -47,12 +47,22 @@ Pick one of the two challenges below and build based off of the parameters set.
 
 Build an API that outputs a list of developer advocates with their details such as where they work, social links, bio, etc.
 
+**Project Requirements**
+
 Your API should at a minumum have these 4 endpoints
 
 1. `/advocates`
 2. `/advocates/:id`
 3. `/companies`
 4. `/companies/:id`
+
+Your API should be searchable (By user name), paginated.
+
+Ex: 
+
+`/advocates/?query=dennis&limit=20&page=2`
+
+Your endpoints should provide links to user profile pictures and company logos.
 
 User Data Ex:
 
@@ -96,12 +106,12 @@ Company Data Ex:
 }
 ```
 
-`Requirements`
+**Submission Requirements**
 
 - Github link
 - Live URL - API must be hosted
 - Publicly accessible - Configure CORS so I can make requests
-- Tag Agora Devs on Twitter OR Linkedin
+- Tag Agora on Twitter OR Linkedin
 
 🧑‍⚖️ What Judges Are Looking For
 
@@ -115,7 +125,7 @@ Judges are looking for an API that works and follows the REST standard. If these
 
 💰  Prize money: $500 - 1 winner will be selected
 
-Using the the data provided in this link (link will be added soon), design and code up a template wich consumes the API.
+Using the the data provided in this link (<a href="https://cados.up.railway.app/" target="_blank">cados.up.railway.app</a>), design and code up a template which consumes the API.
 
 Your website should at a minumum have these 4 pages
 
@@ -129,6 +139,7 @@ Your website should at a minumum have these 4 pages
 - Github link
 - Live URL
 - 4 Pages
+- Searchable. Ex: `?advocates?query=dennis`
 
 🧑‍⚖️ What Judges Are Looking For
 

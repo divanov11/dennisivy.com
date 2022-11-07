@@ -1,6 +1,6 @@
 ---
 title: Startups & Projects I'm Watching
-slug: fast-api-crud
+slug: startups-watchlist
 date: 2022-9-28
 author: Dennis Ivy
 read_time: 1

@@ -39,7 +39,7 @@ I'll be looking more into this and seeing if it really is as cool as it seems.
 
 Since heroku announced they are discontinuing their free teir in novermber of 2022 everybodys been looking for alternitives. In my hunt for a new place to host my applications and database I found a venture backed startup that makes hosting easier than ever. 
 
-I've already made a few videos using Railway to host my postgres database and some Djano applications and I gotta say I'm never going back.
+I've already made a few videos using Railway to host my postgres database and some Django applications and I gotta say I'm never going back.
 
 > <a href="https://youtu.be/HEV1PWycOuQ" target="_blank">"Easiest Way To Connect Django To A Postgres Database"</a>
 

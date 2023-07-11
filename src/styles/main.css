@@ -149,7 +149,7 @@ nav a{
 }
 
 #user-name{
-    font-size: 48px;
+    font-size: clamp(36px,50%,48px);
     line-height: 0;
 }
 
